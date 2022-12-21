@@ -17,6 +17,6 @@ router.post('/suivant', voyageurController.etapeSuivante)
 
 router.get('/reservation/person', (req, res) => res.render('person.ejs', { nbseat: req.session.nbseat }))
 
-/*router.post('/reservation/person', reservationController.fin)*/
+router.post('/reservation/validation', reservationController.validation)
 
 module.exports = router

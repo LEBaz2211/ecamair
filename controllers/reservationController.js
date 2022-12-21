@@ -8,7 +8,10 @@ function getPricing(nbseat, assurance) {
 
 exports.total = (req, res) => {
 	let newTotal = getPricing(req.body.nbseat, req.body.assurance)
-	console.log(newTotal)
 	res.render('home.ejs', { destination: req.body.destination, nbseat: req.body.nbseat, assurance: req.body.assurance, total: newTotal })
 }
 
+
+exports.validation = (req, res) => {
+		
+}
