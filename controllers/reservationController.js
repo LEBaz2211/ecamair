@@ -1,5 +1,5 @@
 let Voyageur = require('../models/voyageur')
-let Reservation = require('../models/reservation')
+let Reservation = require('./models/reservation')
 
 let connection = require('../database.js')
 
