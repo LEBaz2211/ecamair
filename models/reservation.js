@@ -7,3 +7,5 @@ class Reservation {
         this.assurance = false
     }
 }
+
+module.exports = Reservation
