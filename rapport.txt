@@ -1,5 +1,9 @@
 
+lien du repo:
 
+https://github.com/LEBaz2211/ecamair
+
+machine 108
 
 -----------------------Repo Git
 
@@ -120,13 +124,4 @@ sudo npm run dev
 	//ajouter la ligne suivante pour faire un backup de la base de donnée toutes les nuits à 4h du matin
 
 	0 4 * * * /var/backup/backup.sh
-
-
-//si vous voulez faire un backup d'un dossier, créez un script de backup et de log:
-
-	#!/bin/bash
-
-	tar -zcvf /var/backup/<nom du dossier>$(date +"%d-%m-%Y").tar.gz /var/backup/<nom du dossier>.tar
-
-	echo "Backup du dossier effectué le $(date +"%d-%m-%Y") à $(date +"%T")" >> /var/backup/backup.log
 
