@@ -11,3 +11,4 @@ exports.total = (req, res) => {
 	console.log(newTotal)
 	res.render('home.ejs', { destination: req.body.destination, nbseat: req.body.nbseat, assurance: req.body.assurance, total: newTotal })
 }
+

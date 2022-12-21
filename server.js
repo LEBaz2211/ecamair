@@ -9,6 +9,12 @@ app.use(session({
     saveUninitialized: true
 }))
 
+session.nbseat = 0
+
+session.assurance = false
+
+console.log(session)
+
 app.use(express.static('public'))
 
 app.set('view engine', 'ejs')
@@ -21,3 +27,5 @@ app.use('/', router)
 app.listen(80, () => {
     console.log('Server is running on port 80')
 })
+
+module.exports = session

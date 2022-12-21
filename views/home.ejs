@@ -20,18 +20,16 @@
             <div>
                 <label for="assurance">Assurance</label>
                 <input type="checkbox" name="assurance" id="assurance" value= "<%= true %>">
-                </radio>
             </div>
             <div>
-                <input type="submit" value="Etape suivante">
+                <input type="submit" value="Etape suivante" formaction="/suivant">
             </div>
         
-            <input id="bt_total" type="submit" formaction="/home">Caculer le total</button>
+            <input id="bt_total" type="submit" formaction="/home" value="Calculer le total">
         <div id="total">
             Total de la réservation : <%= total %> €
         </div>
         </form>
     </div>
-    <script src="util.js"></script>
 </body>
 </html>
