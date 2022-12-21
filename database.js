@@ -1,4 +1,4 @@
-let mysql = require("mysql")
+/*let mysql = require("mysql")
 
 
 let connection = mysql.createConnection({
@@ -10,4 +10,4 @@ let connection = mysql.createConnection({
 
 connection.connect(function (error) { if (error) console.log(error); })
 
-module.exports = connection
+module.exports = connection*/
