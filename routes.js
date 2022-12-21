@@ -19,4 +19,6 @@ router.get('/reservation/person', (req, res) => res.render('person.ejs', { nbsea
 
 router.post('/reservation/validation', reservationController.validation)
 
+router.get('/confirmation', reservationController.fin)
+
 module.exports = router

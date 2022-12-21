@@ -16,7 +16,9 @@
         <div id="persons">
             <h3>Liste des passagers</h3>
             <ul>
-
+                <% for (var i = 0; i < nbseat*2; i++) {%>
+                    <li><%=passList[i]%></li> 
+                <%}%>  
             </ul>
         </div>
         <form>

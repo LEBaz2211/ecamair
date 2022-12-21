@@ -1,13 +1,13 @@
-/*let mysql = require("mysql")
+let mysql = require("mysql")
 
 
 let connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: '<mdp du user root>',
-    database: '<nom de la base de donnée>'
+    password: 'MemyselfandI269',
+    database: 'voyage'
 })
 
 connection.connect(function (error) { if (error) console.log(error); })
 
-module.exports = connection*/
+module.exports = connection
